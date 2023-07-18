@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background-color:  #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color:  hsl(213, 19%, 18%);
+    width: 500px;
+    height: 450px;
+   padding: 40px;
+   border-radius: 20px;
+   position: relative;
+}
+
+.rating-state {
+    transform: scale(1);
+}
+
+
+.star {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    background-color: hsl(216, 12%, 8%);
+    
+}
+
+.star svg {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.rating-state h2 {
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.rating-state p {
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+}
+
+.rate {
+    list-style-type: none;
+    display: flex;
+    margin: 40px 0px;
+    justify-content: space-between;
+}
+
+.rate li {  
+ 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(216, 12%, 8%);
+}
+
+.rate li:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: #fff;
+}
+
+
+
+#submit {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+#submit:focus {
+    outline: none;
+    opacity: 0.8;
+}
+
+
+/* RATE RESULT */
+
+.rate-result {
+    transform: scale(0);
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    right: 15px;
+    transition: transform 0.2s ease-out;
+}
+
+.rate-result img {
+    margin: 0% 30%;
+}
+
+.rate-result #result{
+    margin: 10% 30%;
+    padding: 2px;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    background-color: #fff;
+    width: 200px;
+    border-radius: 30px;
+    padding: 4pxs;
+}
+
+.rate-result h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.rate-result p {
+    margin-top: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 0px 10px ;
+    color:hsl(217, 12%, 63%);
+}
