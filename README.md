@@ -63,6 +63,5 @@ The template provides a guide for what to add. A custom `README` will help you e
 Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
 
 ## report 
-should there be any issue understanding the procedures above please reach out to [ME](https://github.com/JABS081/Interactive-rating-web-app/edit/main/issue)
-
+should there be any issue understanding the procedures above please reach out to [ME](https://github.com/JABS081/Interactive-rating-web-app/issues)
 **Have fun building!** 🚀
