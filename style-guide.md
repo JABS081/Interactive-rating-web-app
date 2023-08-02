@@ -1,4 +1,4 @@
-# Front-end Style Guide
+# web-app Style Guide
 
 ## Layout
 
