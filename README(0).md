@@ -2,7 +2,7 @@
 Get AppStore apps reviews, and rankings worldwide for every category.
 
 ## Installation
-	git clone https://github.com/mattlawer/appstat.git
+	git clone https://github.com/jabs081/appstat.git
 	cd appstat
 	make # 'make ios' to build for iOS 
 	make install
